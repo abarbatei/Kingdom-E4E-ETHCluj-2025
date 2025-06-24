@@ -15,3 +15,5 @@ states/
 .env.local
 .wake
 .vscode
+out/
+cache/
