@@ -55,7 +55,7 @@ contract Playground is Test {
         stealGoldCoins();
         vm.stopPrank();
 
-        assertEq(gold.balanceOf(attacker), 56 ether, "attacker must have 56 full cold coins at the end");
+        assertEq(gold.balanceOf(attacker), 56 ether, "attacker must have 56 full gold coins at the end");
     }
 
     function stealGoldCoins() private {

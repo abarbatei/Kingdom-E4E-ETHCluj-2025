@@ -38,7 +38,7 @@ Note: running the test without finish the task successfully will result in an er
 
 ```
 Ran 1 test for test/Kingdom.t.sol:Playground
-[FAIL. Reason: attacker must have 56 full cold coins at the end: 0 != 56000000000000000000] test_fairKingdomDistribution() (gas: 221515)
+[FAIL. Reason: attacker must have 56 full gold coins at the end: 0 != 56000000000000000000] test_fairKingdomDistribution() (gas: 221515)
 Logs:
   Hacker gonna hack!
 ```
