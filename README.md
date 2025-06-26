@@ -1,5 +1,13 @@
 # Kingdom-E4E-ETHCluj-2025
 
+## Requirements
+
+Participants must have Foundry installed and have basic CLI knowledge.
+
+Foundry can be installed by following the instructions [from here](https://getfoundry.sh/introduction/installation/).
+
+Requires Solidity compiler for `0.8.20` minimum, `forge` should install the requirement automatically when running the test (in a later step).
+
 ## Setup
 
 Setup should be already done default, just clone the repo with submodules:
@@ -19,8 +27,6 @@ Running the task (with a minimum of 2 `v`s, for verbosity, can be 3):
 ```sh
 forge test -vv
 ```
-
-Requires Solidity compiler for `0.8.20` minimum, `forge` should install the requirement automatically when running the test.
 
 # Description
 
